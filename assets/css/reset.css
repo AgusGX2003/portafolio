@@ -1,0 +1,42 @@
+*, ::before, ::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+ body {
+    /* Altura minima que ocupará la página */
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+p a {
+    display: inline;
+}
+
+img, video, iframe, picture, figure {
+    display: block;
+    max-width: 100%;
+}
+
+
+form, input, select, textarea, button, label {
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
