@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +13,12 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- CARGA DE JS -->
-     <script src="./assets/js/menu-mobile.js"></script>
-     <script src="./assets/js/navbar-fixed.js"></script>
-     <script src="./assets/js/dark.js"></script>
+    <script src="./assets/js/menu-mobile.js"></script>
+    <script src="./assets/js/navbar-fixed.js"></script>
+    <script src="./assets/js/dark.js"></script>
     <title>Agustín Piuca - Desarrollador Frontend</title>
 </head>
+
 <body>
 
     <!-- BOTON MODO OSCURO -->
@@ -27,7 +29,7 @@
             </span>
             <span class="switcher__icon-dark">
                 <i class="fa-solid fa-sun switcher__icon"></i>
-            </span>            
+            </span>
         </button>
     </div>
 
@@ -46,18 +48,18 @@
         </header>
 
         <div class="menu-mobile__body">
-                <nav class="menu-mobile__nav">
-                    <ul class="menu-mobile__list">
-                        <li class="menu-mobile__item">
-                            <a href="#" class="menu-mobile__link">Inicio</a>
-                        </li>
-                        <li class="menu-mobile__item"><a href="#sobre-mi" class="menu-mobile__link">Sobre mi</a></li>
-                        <li class="menu-mobile__item"><a href="#habilidades" class="menu-mobile__link">Habilidades</a></li>
-                        <li class="menu-mobile__item"><a href="#proyectos" class="menu-mobile__link">Proyectos</a></li>
-                        <li class="menu-mobile__item"><a href="#educacion" class="menu-mobile__link">Educación</a></li>
-                        <li class="menu-mobile__item"><a href="#contacto" class="menu-mobile__link">Contacto</a></li>
-                    </ul>
-                </nav>
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Inicio</a>
+                    </li>
+                    <li class="menu-mobile__item"><a href="#sobre-mi" class="menu-mobile__link">Sobre mi</a></li>
+                    <li class="menu-mobile__item"><a href="#habilidades" class="menu-mobile__link">Habilidades</a></li>
+                    <li class="menu-mobile__item"><a href="#proyectos" class="menu-mobile__link">Proyectos</a></li>
+                    <li class="menu-mobile__item"><a href="#educacion" class="menu-mobile__link">Educación</a></li>
+                    <li class="menu-mobile__item"><a href="#contacto" class="menu-mobile__link">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 
@@ -87,7 +89,7 @@
                 <!-- NAVEGACION -->
 
                 <nav class="navbar__nav">
-                    <ul class="nav__list"> 
+                    <ul class="nav__list">
                         <li class="nav__item"><a href="#" class="nav__title">Inicio</a></li>
                         <li class="nav__item"><a href="#sobre-mi" class="nav__title">Sobre mí</a></li>
                         <li class="nav__item"><a href="#habilidades" class="nav__title">Habilidades</a></li>
@@ -105,7 +107,8 @@
             <!-- CONTENIDO DEL BANNER -->
 
             <header class="banner__content">
-                <h1 class="banner__title">Agustín Piuca<br>Desarrollador Frontend</h1>
+                <p class="banner__subtitle">¡Hola! Soy <span class="banner__subtitle-name">Agustín Piuca</span></p>
+                <h1 class="banner__title">Frontend Developer & UX/UI Designer</h1>
                 <a href="#proyectos" class="banner__btn">Ver mis trabajos</a>
             </header>
 
@@ -120,32 +123,32 @@
                     <li class="shapes__item shapes__item--shape2">
                         <div class="shapes__container">
                             <img src="./assets/img/banner-shape-2.png" alt="" class="shapes__img">
-                        </div>                        
+                        </div>
                     </li>
                     <li class="shapes__item shapes__item--shape3">
                         <div class="shapes__container">
                             <img src="./assets/img/bubble-16.png" alt="" class="shapes__img">
-                        </div> 
+                        </div>
                     </li>
                     <li class="shapes__item shapes__item--shape4">
                         <div class="shapes__container">
                             <img src="./assets/img/bubble-15.png" alt="" class="shapes__img">
-                        </div> 
+                        </div>
                     </li>
                     <li class="shapes__item shapes__item--shape5">
                         <div class="shapes__container">
                             <img src="./assets/img/bubble-14.png" alt="" class="shapes__img">
-                        </div> 
+                        </div>
                     </li>
                     <li class="shapes__item shapes__item--shape6">
                         <div class="shapes__container">
                             <img src="./assets/img/bubble-16.png" alt="" class="shapes__img">
-                        </div> 
+                        </div>
                     </li>
                     <li class="shapes__item shapes__item--shape7">
                         <div class="shapes__container">
                             <img src="./assets/img/bubble-26.png" alt="" class="shapes__img">
-                        </div> 
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -153,49 +156,59 @@
 
         <section class="layout__projects" id="sobre-mi">
             <div class="projects__grid">
-                
+
                 <header class="projects__header">
                     <p class="projects__subtitle">Conóceme</p>
                     <h2 class="projects__title">Sobre Mí</h2>
-                    <p style="font-size: 1.8rem; margin-top: 3rem; margin-bottom: 2rem; color: var(--color-text-body); max-width: 900px; line-height: 1.8;">
-                        Soy un <strong>desarrollador frontend</strong> con enfoque en la creación de interfaces de usuario usables e interactivas para sitios y aplicaciones web complejas. Combino diseño centrado en el usuario con desarrollo eficiente, encargándome de la maquetación y el desarrollo de interfaces modernas que priorizan el rendimiento y la experiencia del usuario.<br><br>
-                        Utilizo <strong>Figma</strong> para el diseño y prototipado de interfaces, y trabajo principalmente con <strong>React y TypeScript</strong> para construir productos web robustos, escalables y mantenibles.
+                    <p
+                        style="font-size: 1.8rem; margin-top: 3rem; margin-bottom: 2rem; color: var(--color-text-body); max-width: 900px; line-height: 1.8;">
+                        Soy un <strong>desarrollador frontend</strong> con enfoque en la creación de interfaces de
+                        usuario usables e interactivas para sitios y aplicaciones web complejas. Combino diseño centrado
+                        en el usuario con desarrollo eficiente, encargándome de la maquetación y el desarrollo de
+                        interfaces modernas que priorizan el rendimiento y la experiencia del usuario.<br><br>
+                        Utilizo <strong>Figma</strong> para el diseño y prototipado de interfaces, y trabajo
+                        principalmente con <strong>React y TypeScript</strong> para construir productos web robustos,
+                        escalables y mantenibles.
                     </p>
                 </header>
 
                 <div class="stats__progress" style="width: 100%; margin-top: 4rem;">
-                    
+
                     <article class="softskill__card">
                         <div class="stat__icon">
-                            <i class="fa-solid fa-users" style="font-size: 5.5rem; color: var(--color-primary); margin-bottom: 2rem;"></i> 
+                            <i class="fa-solid fa-users"
+                                style="font-size: 5.5rem; color: var(--color-primary); margin-bottom: 2rem;"></i>
                         </div>
                         <h6 class="softskill__text">Trabajo en equipo</h6>
                     </article>
 
                     <article class="softskill__card">
                         <div class="stat__icon">
-                            <i class="fa-solid fa-hand-holding-heart" style="font-size: 5.5rem; color: var(--color-subtitle); margin-bottom: 2rem;"></i>
+                            <i class="fa-solid fa-hand-holding-heart"
+                                style="font-size: 5.5rem; color: var(--color-subtitle); margin-bottom: 2rem;"></i>
                         </div>
                         <h6 class="softskill__text">Empatía</h6>
                     </article>
 
                     <article class="softskill__card">
                         <div class="stat__icon">
-                            <i class="fa-solid fa-lightbulb" style="font-size: 5.5rem; color: var(--color-primary); margin-bottom: 2rem;"></i>
+                            <i class="fa-solid fa-lightbulb"
+                                style="font-size: 5.5rem; color: var(--color-primary); margin-bottom: 2rem;"></i>
                         </div>
-                        <h6 class="softskill__text" >Resolución de problemas</h6>
+                        <h6 class="softskill__text">Resolución de problemas</h6>
                     </article>
 
                     <article class="softskill__card">
                         <div class="stat__icon">
-                            <i class="fa-solid fa-book-open-reader" style="font-size: 5.5rem; color: var(--color-subtitle); margin-bottom: 2rem;"></i>
+                            <i class="fa-solid fa-book-open-reader"
+                                style="font-size: 5.5rem; color: var(--color-subtitle); margin-bottom: 2rem;"></i>
                         </div>
                         <h6 class="softskill__text">Autodidacta</h6>
                     </article>
 
                 </div>
             </div>
-            
+
             <ul class="projects__project-shapes">
                 <li class="project-shapes__item project-shapes--shape1">
                     <div class="project-shapes__container">
@@ -217,7 +230,7 @@
         <!-- SERVICIOS -->
         <section class="layout__services" id="habilidades">
             <div class="services__grid">
-                
+
                 <header class="services__header">
                     <p class="services__subtitle">Mi Stack Tecnológico</p>
                     <h2 class="services__title">Habilidades y <br>Herramientas</h2>
@@ -226,28 +239,44 @@
                 <div class="services__list">
                     <article class="services__service services__service--bottom">
                         <div class="service__content">
-                            <h3 class="service__tile"><a href="#habilidades" class="service__link">Desarrollo Frontend</a></h3>
-                            <p class="service__description">Construcción de productos web robustos y escalables utilizando Next.JS, React.JS, TypeScript, JavaScript, HTML5 y CSS3.</p>
-                            
+                            <h3 class="service__tile"><a href="#habilidades" class="service__link">Desarrollo
+                                    Frontend</a></h3>
+                            <p class="service__description">Construcción de productos web robustos y escalables
+                                utilizando Next.JS, React.JS, TypeScript, JavaScript, HTML5 y CSS3.</p>
+
                             <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
                                     <img src="./assets/img/nextjs.svg" alt="Next.JS" style="width: 24px; height: 24px;">
-                                     Next.JS
+                                    Next.JS
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
-                                    <i class="fa-brands fa-react" style="color: #61DAFB; font-size: 1.6rem;"></i> React.JS
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                    <i class="fa-brands fa-react" style="color: #61DAFB; font-size: 1.6rem;"></i>
+                                    React.JS
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
                                     <strong style="color: #3178C6; font-size: 1.4rem;">TS</strong> TypeScript
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
-                                    <i class="fa-brands fa-js" style="color: #F7DF1E; font-size: 1.6rem;"></i> JavaScript
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                    <i class="fa-brands fa-js" style="color: #F7DF1E; font-size: 1.6rem;"></i>
+                                    JavaScript
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
                                     <i class="fa-brands fa-html5" style="color: #E34F26; font-size: 1.6rem;"></i> HTML5
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
-                                    <i class="fa-brands fa-css3-alt" style="color: #1572B6; font-size: 1.6rem;"></i> CSS3
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                    <i class="fa-brands fa-css3-alt" style="color: #1572B6; font-size: 1.6rem;"></i>
+                                    CSS3
+                                </span>
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                    <i class="fa-solid fa-wind" style="color: #06B6D4; font-size: 1.6rem;"></i> Tailwind
+                                    CSS
                                 </span>
                             </div>
                         </div>
@@ -255,15 +284,17 @@
 
                     <article class="services__service services__service--middle">
                         <div class="service__content">
-                            <h3 class="service__tile"><a href="#habilidades" class="service__link">Diseño UI & Maquetación</a></h3>
-                            <p class="service__description">Prototipado de interfaces modernas en Figma y estilización eficiente utilizando Tailwind CSS.</p>
-                            
+                            <h3 class="service__tile"><a href="#habilidades" class="service__link">Diseño UX/UI</a></h3>
+                            <p class="service__description">Trabajo en estrecha colaboración con las unidades de negocio
+                                y los propietarios de productos, para así crear estrategias de diseño centradas en el
+                                usuario que sean claras y realistas para impulsar productos que cumplan con los
+                                objetivos de negocio y aporten valor al usuario. Desde la investigación hasta la
+                                creación de wireframes de alta fidelidad.</p>
+
                             <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
                                     <i class="fa-brands fa-figma" style="color: #F24E1E; font-size: 1.6rem;"></i> Figma
-                                </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
-                                    <i class="fa-solid fa-wind" style="color: #06B6D4; font-size: 1.6rem;"></i> Tailwind CSS
                                 </span>
                             </div>
                         </div>
@@ -271,23 +302,31 @@
 
                     <article class="services__service services__service--top">
                         <div class="service__content">
-                            <h3 class="service__tile"><a href="#habilidades" class="service__link">Backend & Herramientas</a></h3>
-                            <p class="service__description">Integración con APIs Rest, fundamentos en Java, Springboot y SQL, junto con gestión de repositorios en Git/GitHub.</p>
-                            
+                            <h3 class="service__tile"><a href="#habilidades" class="service__link">Backend &
+                                    Herramientas</a></h3>
+                            <p class="service__description">Integración con APIs Rest, fundamentos en Java, Springboot y
+                                SQL, junto con gestión de repositorios en Git/GitHub.</p>
+
                             <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
                                     <i class="fa-brands fa-java" style="color: #007396; font-size: 1.6rem;"></i> Java
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
-                                    <i class="fa-solid fa-leaf" style="color: #6DB33F; font-size: 1.6rem;"></i> Springboot
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                    <i class="fa-solid fa-leaf" style="color: #6DB33F; font-size: 1.6rem;"></i>
+                                    Springboot
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
                                     <i class="fa-solid fa-database" style="color: #336791; font-size: 1.6rem;"></i> SQL
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
                                     <i class="fa-brands fa-git-alt" style="color: #F05032; font-size: 1.6rem;"></i> Git
                                 </span>
-                                <span style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
+                                <span
+                                    style="border: 1px solid var(--color-new-border); border-radius: 20px; padding: 0.6rem 1.2rem; font-size: 1.4rem; display: flex; align-items: center; gap: 0.8rem; color: var(--color-text-body);">
                                     <i class="fa-brands fa-github" style="font-size: 1.6rem;"></i> GitHub
                                 </span>
                             </div>
@@ -320,7 +359,7 @@
             <div class="projects__grid">
                 <header class="projects__header">
                     <p class="projects__subtitle">Portafolio</p>
-                    <h2 class="projects__title">Mis proyectos <br>destacados</h2>
+                    <h2 class="projects__title">Proyectos <br>destacados</h2>
                 </header>
 
                 <div class="projects__all">
@@ -332,9 +371,12 @@
                         </div>
                         <div class="project__content">
                             <h3 class="project__title">
-                                <a href="https://beat-hub-app.vercel.app/" target="_blank" class="project-link__title">BeatHub - Marketplace</a>
+                                <a href="https://beat-hub-app.vercel.app/" target="_blank"
+                                    class="project-link__title">BeatHub - Marketplace</a>
                             </h3>
-                            <p class="project__description" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Proyecto de simulación laboral TECH. Conexión entre productores y artistas musicales para la compraventa de Beats.</p>
+                            <p class="project__description" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Proyecto
+                                de simulación laboral TECH. Conexión entre productores y artistas musicales para la
+                                compraventa de Beats.</p>
                             <div class="projects__tag">
                                 <span class="project__tag">Next.JS,</span>
                                 <span class="project__tag">TypeScript,</span>
@@ -351,9 +393,12 @@
                         </div>
                         <div class="project__content">
                             <h3 class="project__title">
-                                <a href="https://codycooking.netlify.app/" target="_blank" class="project-link__title">Cody Cooking</a>
+                                <a href="https://codycooking.netlify.app/" target="_blank"
+                                    class="project-link__title">Cody Cooking</a>
                             </h3>
-                            <p class="project__description" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Sitio web de recetas de cocina con consumo de API, gestión de usuarios y guardado en favoritos.</p>
+                            <p class="project__description" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Sitio web
+                                de recetas de cocina con consumo de API, gestión de usuarios y guardado en favoritos.
+                            </p>
                             <div class="projects__tag">
                                 <span class="project__tag">React,</span>
                                 <span class="project__tag">Zustand,</span>
@@ -370,9 +415,12 @@
                         </div>
                         <div class="project__content">
                             <h3 class="project__title">
-                                <a href="https://coseguronovamed.com.ar/" target="_blank" class="project-link__title">Coseguro Novamed</a>
+                                <a href="https://coseguronovamed.com.ar/" target="_blank"
+                                    class="project-link__title">Coseguro Novamed</a>
                             </h3>
-                            <p class="project__description" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Sitio web oficial para empresa de Coseguro de Salud de la provinvia de Salta. Diseño hecho en Fima y maquetada en HTML, CSS y JS, con optimización SEO.</p>
+                            <p class="project__description" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Sitio web
+                                oficial para empresa de Coseguro de Salud de la provinvia de Salta. Diseño hecho en Fima
+                                y maquetada en HTML, CSS y JS, con optimización SEO.</p>
                             <div class="projects__tag">
                                 <span class="project__tag">HTML,</span>
                                 <span class="project__tag">CSS,</span>
@@ -406,35 +454,42 @@
                 <header class="clients__header">
                     <h4 class="clients__subtitle">Formación Académica</h4>
                     <h2 class="clients__title">Mi Educación</h2>
-                    <p class="clients__description">Trayectoria académica y preparación profesional para afrontar nuevos retos tecnológicos.</p>
+                    <p class="clients__description">Trayectoria académica y preparación profesional para afrontar nuevos
+                        retos tecnológicos.</p>
                 </header>
-                
+
                 <div class="clients__logos" style="flex-wrap: wrap; justify-content: flex-start; gap: 4rem;">
-                    
+
                     <article class="clients__item" style="width: calc(50% - 2rem); min-width: 300px;">
-                        <h3 style="font-size: 2.2rem; font-weight: 700; color: var(--color-secondary); margin-bottom: 1rem;">
+                        <h3
+                            style="font-size: 2.2rem; font-weight: 700; color: var(--color-secondary); margin-bottom: 1rem;">
                             Licenciatura en Ciencias de Datos
                         </h3>
-                        <h4 style="font-size: 1.8rem; font-weight: 500; color: var(--color-primary); margin-bottom: 1rem;">
+                        <h4
+                            style="font-size: 1.8rem; font-weight: 500; color: var(--color-primary); margin-bottom: 1rem;">
                             Universidad Católica de Salta
                         </h4>
                         <p style="font-size: 1.5rem; color: var(--color-text-description);">
-                            <i class="fa-regular fa-calendar" style="margin-right: 0.5rem;"></i> Marzo de 2025 - Diciembre de 2028 (En curso)
+                            <i class="fa-regular fa-calendar" style="margin-right: 0.5rem;"></i> Marzo de 2025 -
+                            Diciembre de 2028 (En curso)
                         </p>
                     </article>
 
                     <article class="clients__item" style="width: calc(50% - 2rem); min-width: 300px;">
-                        <h3 style="font-size: 2.2rem; font-weight: 700; color: var(--color-secondary); margin-bottom: 1rem;">
+                        <h3
+                            style="font-size: 2.2rem; font-weight: 700; color: var(--color-secondary); margin-bottom: 1rem;">
                             Tecnicatura Superior en Análisis de Sistemas Informáticos
                         </h3>
-                        <h4 style="font-size: 1.8rem; font-weight: 500; color: var(--color-primary); margin-bottom: 1rem;">
+                        <h4
+                            style="font-size: 1.8rem; font-weight: 500; color: var(--color-primary); margin-bottom: 1rem;">
                             Instituto Superior del Milagro
                         </h4>
                         <p style="font-size: 1.5rem; color: var(--color-text-description);">
-                            <i class="fa-regular fa-calendar" style="margin-right: 0.5rem;"></i> Marzo de 2022 - Diciembre de 2023
+                            <i class="fa-regular fa-calendar" style="margin-right: 0.5rem;"></i> Marzo de 2022 -
+                            Diciembre de 2023
                         </p>
                     </article>
-                    
+
                 </div>
             </div>
             <ul class="clients__client-shapes">
@@ -451,8 +506,8 @@
             <div class="contact__container">
                 <header class="contact__header">
                     <h4 class="contact__subtitle">Trabajemos juntos</h4>
-                    <h2 class="contact__title">¿Necesitas sumar a alguien a tu equipo?</h2>    
-                    <a href="mailto:aguspiucaquevedo@gmail.com?Subject=Asunto" class="contact__btn">Hablemos</a>                
+                    <h2 class="contact__title">¿Necesitas sumar a alguien a tu equipo?</h2>
+                    <a href="mailto:aguspiucaquevedo@gmail.com?Subject=Asunto" class="contact__btn">Hablemos</a>
                 </header>
                 <div class="contact__images">
                     <div class="contact__thumb contact__thumb--chat">
@@ -463,7 +518,7 @@
                     </div>
                     <div class="contact__thumb contact__thumb--mobile">
                         <img src="./assets/img/men-mobile.png" alt="" class="contact__img">
-                    </div>                                        
+                    </div>
                 </div>
             </div>
             <ul class="contact__backshapes">
@@ -475,10 +530,10 @@
                 </li>
                 <li class="backshapes__item backshapes--shape3">
                     <img src="./assets/img/bubble-13.png" alt="" class="backshapes__img">
-                </li>      
+                </li>
                 <li class="backshapes__item backshapes--shape4">
                     <img src="./assets/img/bubble-14.png" alt="" class="backshapes__img">
-                </li>  
+                </li>
                 <li class="backshapes__item backshapes--shape5">
                     <img src="./assets/img/bubble-16.png" alt="" class="backshapes__img">
                 </li>
@@ -487,7 +542,7 @@
                 </li>
                 <li class="backshapes__item backshapes--shape7">
                     <img src="./assets/img/bubble-16.png" alt="" class="backshapes__img">
-                </li>                                                                                                                              
+                </li>
             </ul>
         </section>
         <!-- FOOTER -->
@@ -496,7 +551,8 @@
                 <section class="footer__top">
                     <ul class="footer__social">
                         <li class="social__item">
-                            <a href="https://www.linkedin.com/in/agustin-sebastian-piuca-quevedo/" class="social__link" target="_blank">
+                            <a href="https://www.linkedin.com/in/agustin-sebastian-piuca-quevedo/" class="social__link"
+                                target="_blank">
                                 <i class="fa-brands fa-linkedin social__img"></i>
                             </a>
                         </li>
@@ -541,10 +597,10 @@
                                 </li>
                                 <li class="widget__item">
                                     <a href="#educacion" class="widget__link">Educación</a>
-                                </li>    
+                                </li>
                                 <li class="widget__item">
                                     <a href="#contacto" class="widget__link">Contacto</a>
-                                </li>                                                                                                                                
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -553,7 +609,8 @@
                 <section class="footer__bottom">
                     <div class="footer__copyright">
                         <span class="copyright__text">
-                            &copy; 2026. Diseñado y desarrollado por <a href="https://www.linkedin.com/in/agustin-sebastian-piuca-quevedo/">Agustín Piuca.</a>
+                            &copy; 2026. Diseñado y desarrollado por <a
+                                href="https://www.linkedin.com/in/agustin-sebastian-piuca-quevedo/">Agustín Piuca.</a>
                         </span>
                     </div>
 
@@ -562,4 +619,5 @@
         </section>
     </div>
 </body>
+
 </html>
