@@ -249,7 +249,7 @@ body {
 }
 
 .banner__subtitle-name {
-    color: var(--color-subtitle);
+    color: var(--color-bg-btn);
     font-size: 3.2rem;
 }
 
@@ -426,6 +426,8 @@ body {
 /* ESTILOS SECCION SOBRE MI */
 
 .softskill__card {
+    position: relative;
+    overflow: hidden;
     width: 25%;
     padding: 5rem 2rem;
     border-radius: 20px;
@@ -435,11 +437,31 @@ body {
     box-shadow: 0 24px 48px -15px #ddd;
     z-index: 10;
     transition: all 300ms ease-in-out;
+}
 
+.softskill__card>* {
+    position: relative;
+    z-index: 2;
+}
+
+.softskill__card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, var(--color-banner), #00000000);
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 300ms ease-in-out;
+}
+
+.softskill__card:hover::before {
+    opacity: 1;
 }
 
 .softskill__card:hover {
-    background: linear-gradient(0deg, var(--color-banner), #00000000);
     background-color: var(--color-secondary);
     color: var(--color-secondary);
 }

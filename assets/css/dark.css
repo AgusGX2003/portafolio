@@ -1,4 +1,4 @@
-:root{
+:root {
     --mx-width: 1320px;
     --color-text-body: #D3D3D4;
     --color-primary: #5956E9;
@@ -16,100 +16,104 @@
     --color-new-border: #393940;
 }
 
-body{
+body {
     background-color: #212121;
 }
 
-.nav__title:hover{
+.nav__title:hover {
     color: var(--color-secondary);
 }
 
-.nav__title::before{
+.nav__title::before {
     background-color: var(--color-secondary);
 }
 
 
-.nav__submenu{
+.nav__submenu {
     background-color: var(--color-banner);
     color: var(--color-secondary);
 }
 
-.submenu__title:hover{
+.submenu__title:hover {
     color: var(--color-secondary);
 }
 
-.submenu__title::after{
+.submenu__title::after {
     background-color: var(--color-secondary);
 }
 
-.banner__btn{
+.banner__btn {
     background-color: var(--color-primary);
 }
 
 .menu__navbar,
-.menu__navbar--fixed{
+.menu__navbar--fixed {
     background-color: #212121;
 }
 
-.menu__mobile{
+.menu__mobile {
     background-color: var(--color-bg-dark);
 }
 
-.mobile-btn__wrap{
+.mobile-btn__wrap {
     background-color: var(--color-bg-dark);
 }
 
-.services__service{
+.services__service {
     background: var(--color-banner);
 }
 
-.project__content{
+.project__content {
     background-color: var(--color-banner);
     color: var(--color-text-body);
 }
 
-.new__more{
+.new__more {
     color: var(--color-text-body);
 }
 
-.layout__contact::before{
+.layout__contact::before {
     background-color: var(--color-banner);
 }
 
-.contact__subtitle, 
-.project__title:hover{
+.contact__subtitle,
+.project__title:hover {
     color: var(--color-over-dark);
 }
 
-.contact__btn{
+.banner__subtitle-name {
+    color: var(--color-over-dark);
+}
+
+.contact__btn {
     background-color: var(--color-primary);
     color: var(--color-secondary);
 }
 
-.fleft__group{
+.fleft__group {
     background-color: #27272E;
     box-shadow: none;
 }
 
-.fleft__form-control{
+.fleft__form-control {
     background-color: #27272E;
     color: var(--color-title);
 }
 
-.widget__link:hover{
+.widget__link:hover {
     color: var(--color-over-dark);
 }
 
-.switcher__icon-dark{
+.switcher__icon-dark {
     display: block;
     color: var(--color-text-btn);
 }
 
-.switcher__icon-light{
+.switcher__icon-light {
     display: none;
 }
 
-.softskill__card{
+.softskill__card {
     background-color: var(--color-banner);
     color: var(--color-text-body);
     box-shadow: none;
