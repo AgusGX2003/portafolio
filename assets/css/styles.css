@@ -848,6 +848,11 @@ body {
 
 }
 
+.project__description {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
 .project__tag {
     font-size: 1.7rem;
 }
