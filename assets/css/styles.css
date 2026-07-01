@@ -1124,6 +1124,43 @@ body {
 
 }
 
+/* SECCION EDUCACION */
+.education__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.education__item {
+    width: calc(50% - 2rem);
+    min-width: 300px;
+}
+
+.education__title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.education__institution {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.education__date {
+    font-size: 1.5rem;
+    color: var(--color-text-description);
+}
+
+.education__date-icon {
+    margin-right: 0.5rem;
+}
+
 /* ESTILOS NOTICIAS */
 
 .layout__news {
