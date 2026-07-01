@@ -1,24 +1,25 @@
 @media (min-width: 1600px) {
-    .layout{
+    .layout {
         min-width: 1600px;
     }
 
-    .layout__menu{
+    .layout__menu {
         padding: 5rem 9.5rem;
     }
 
-    .layout__banner{
+    .layout__banner {
         min-height: 85rem;
         margin: 0 9.5rem;
         padding: 25rem 0 30rem 20rem;
     }
 
-    .services__service{
+    .services__service {
         padding: 7rem 5rem;
     }
 }
 
-@media (min-width: 1199px) and (max-width: 1400px){
+@media (min-width: 1199px) and (max-width: 1400px) {
+
     /* .services__grid, */
     /* .projects__grid, */
     /* .stats__container, */
@@ -26,36 +27,36 @@
     .reviews__grid,
     .clients__container,
     .news__container,
-    .footer__container{
+    .footer__container {
         max-width: 100%;
         padding-right: 3rem;
         padding-left: 3rem;
     }
 
-    .projects__all{
+    .projects__all {
         gap: 3rem;
     }
 
-    .projects__project{
+    .projects__project {
         flex-basis: calc(50% - 3rem);
     }
 }
 
 @media (max-width: 1199px) {
-    .layout{
+    .layout {
         min-width: 992px;
     }
 
-    .nav__item{
+    .nav__item {
         margin: 0 2rem;
     }
 
-    .banner__title{
+    .banner__title {
         font-size: 6rem;
 
     }
 
-    .layout__services{
+    .layout__services {
         margin: 10rem 7rem;
         margin-bottom: 0;
     }
@@ -63,50 +64,50 @@
     .reviews__grid,
     .clients__container,
     .news__container,
-    .footer__container{
+    .footer__container {
         max-width: 96rem;
     }
 
-    .services__service{
+    .services__service {
         padding: 4rem 1.5rem;
     }
 
-    .service__container-img{
+    .service__container-img {
         max-width: 6rem;
     }
 
-    .projects__all{
+    .projects__all {
         gap: 3rem;
     }
 
     .layout__stats,
-    .layout__clients{
+    .layout__clients {
         padding: 10rem 7rem;
     }
 
-    .clients__title{
+    .clients__title {
         width: 70%;
 
     }
 
-    .clients__description{
+    .clients__description {
         width: 60%;
     }
 
-    .layout__news{
+    .layout__news {
         padding: 10rem 0;
     }
 
-    .news__list{
+    .news__list {
         flex-direction: column;
     }
 
-    .news__new:last-child{
+    .news__new:last-child {
         padding-left: 0;
         border-left: none;
     }
 
-    .layout__contact{
+    .layout__contact {
         padding-top: 10rem;
         padding-bottom: 7rem;
     }
@@ -117,49 +118,49 @@
     } */
 }
 
-@media (max-width: 1000px){
-    .layout{
+@media (max-width: 1000px) {
+    .layout {
         min-height: auto;
 
     }
 
-    .navbar__nav{
+    .navbar__nav {
         display: none;
     }
 
-    .navbar__mobile--btn{
+    .navbar__mobile--btn {
         display: block;
     }
 
-    .layout__banner{
+    .layout__banner {
         min-height: 100%;
         margin: 0 3rem;
     }
 
-    .banner__content{
+    .banner__content {
         width: 75%;
     }
 
-    .banner__title{
+    .banner__title {
         font-size: 5.5rem;
     }
 
-    .banner__btn{
+    .banner__btn {
         padding: 2rem 3.5rem;
     }
 
-    .shapes__item{
+    .shapes__item {
         width: 50%;
     }
 
     .reviews__grid,
     .clients__container,
     .news__container,
-    .footer__container{
+    .footer__container {
         max-width: 72rem;
-    }    
+    }
 
-    .layout__services{
+    .layout__services {
         padding-bottom: 4rem;
     }
 
@@ -169,140 +170,142 @@
     .reviews__subtitle,
     .clients__subtitle,
     .news__subtitle,
-    .contact__subtitle{
+    .contact__subtitle {
         font-size: 1.8rem;
         /* font-weight: 500;
         margin-bottom: 1.5rem;
         color: var(--color-subtitle); */
-    }    
+    }
 
     .services__title,
     .projects__title,
     .stats__title,
     .reviews__title,
     .news__title,
-    .contact__title{
+    .contact__title {
         font-size: 5rem;
         /* line-height: 1.2;
         font-weight: 500;
         color: var(--color-title); */
     }
 
-    .services__list{
+    .services__list {
         flex-direction: column;
     }
 
-    .services__service{
+    .services__service {
         width: 95%;
         margin: 1rem auto;
         margin-inline: auto;
         padding: 4rem 2.5rem;
     }
 
-    .service-shapes--shape2{
+    .service-shapes--shape2 {
         display: none;
     }
 
-    .layout__projects{
+    .layout__projects {
         padding: 4rem 2erm;
     }
-    .project-shapes--shape1{
+
+    .project-shapes--shape1 {
         top: 7%;
         right: 0%;
     }
-    .project-shapes--shape2{
+
+    .project-shapes--shape2 {
         display: none;
     }
 
     .layout__stats,
-    .layout__clients{
+    .layout__clients {
         padding: 8rem 5rem;
     }
 
     .stats__description,
-    .clients__description{
+    .clients__description {
         font-size: 1.7rem;
         width: 100%;
     }
 
-    .stats__progress{
+    .stats__progress {
         flex-wrap: wrap;
     }
 
     .stats__stat,
-    .softskill__card{
+    .softskill__card {
         width: calc(50% - 1.5rem);
     }
 
-    .layout__reviews{
+    .layout__reviews {
         padding-top: 8rem;
         padding-bottom: 5rem;
     }
 
     .reviews__description,
-    .news__description{
+    .news__description {
         margin: 3rem 0;
         width: 100%;
         font-size: 1.7rem;
     }
 
-    .reviews__container{
+    .reviews__container {
         flex-direction: column;
     }
 
-    .clients__title{
+    .clients__title {
         font-size: 5rem;
         width: 100%;
     }
 
-    .clients__logos{
+    .clients__logos {
         margin-inline: auto;
         flex-wrap: wrap;
         justify-content: space-between;
 
     }
 
-    .clients__item{
+    .clients__item {
         width: calc(50% - 3rem);
     }
 
-    .clients__img{
+    .clients__img {
         margin: 0 auto;
     }
 
-    .layout__news{
+    .layout__news {
         padding: 8rem 0;
     }
 
-    .layout__contact{
+    .layout__contact {
         padding-top: 8rem;
         padding-bottom: 4rem;
     }
 
-    .contact__title{
+    .contact__title {
         width: 100%;
     }
 
-    .contact__btn{
+    .contact__btn {
         padding: 1.8rem 3.5rem;
     }
 
-    .contact__thumb--chat{
+    .contact__thumb--chat {
         margin-right: -13rem;
         margin-bottom: -0.8rem;
         width: 70%;
     }
 
-    .contact__img{
+    .contact__img {
         width: 100%;
     }
 
-    .contact__thumb--laptop{
+    .contact__thumb--laptop {
         bottom: 0;
         left: 0;
     }
 
-    .contact__thumb--mobile{
+    .contact__thumb--mobile {
         bottom: 0;
         right: -8rem;
     }
@@ -311,83 +314,84 @@
         width: 70%;
     } */
 
-    .social__img{
+    .social__img {
         font-size: 2rem;
     }
 
-    .footer__main{
+    .footer__main {
         flex-direction: column;
         /* margin-inline: 0; */
     }
 
-    .footer__fleft{
+    .footer__fleft {
         width: 100%;
     }
 
-    .fleft__container{
+    .fleft__container {
         border: none;
         padding-inline: 8rem;
         margin-right: 0;
     }
 
-    .footer__fright{
+    .footer__fright {
         width: 100%;
     }
 
-    .footer__bottom{
+    .footer__bottom {
         flex-direction: column;
     }
 
-    .footer__copyright{
+    .footer__copyright {
         flex-basis: auto;
         text-align: center;
         display: block;
         margin-bottom: 1rem;
     }
 
-    .footer__links{
+    .footer__links {
         flex-basis: auto;
         text-align: center;
     }
 
-    .footer__flinks{
+    .footer__flinks {
         justify-content: center;
     }
 }
 
-@media(max-width: 778px){
-    .layout{
+@media(max-width: 778px) {
+    .layout {
         min-width: auto;
     }
-    .layout__banner{
+
+    .layout__banner {
         margin: 0 3rem;
         padding: 8rem 3rem;
     }
 
-    .banner__title{
+    .banner__title {
         font-size: 4rem;
     }
 
-    .layout__services{
+    .layout__services {
         margin: 7rem 7rem;
     }
 
     .reviews__grid,
     .clients__container,
     .news__container,
-    .footer__container{
+    .footer__container {
         max-width: 54rem;
-    }       
-    
+    }
+
     .services__subtitle,
     .projects__subtitle,
     .stats__subtitle,
     .reviews__subtitle,
     .clients__subtitle,
     .news__subtitle,
-    .contact__subtitle{
+    .contact__subtitle {
         font-size: 1.6rem;
-    }    
+    }
 
     .services__title,
     .projects__title,
@@ -395,108 +399,109 @@
     .reviews__title,
     .news__title,
     .fleft__title,
-    .contact__title{
+    .contact__title {
         font-size: 5rem;
-    }    
+    }
 
-    .layout__projects{
+    .layout__projects {
         padding: 6rem 5rem;
     }
 
-    .projects__all{
+    .projects__all {
         flex-direction: column;
         flex-wrap: nowrap;
         gap: 6rem;
     }
 
-    .projects__project{
+    .projects__project {
         width: 100%;
         /* flex-basis: auto; */
     }
 
     .layout__stats,
-    .layout__clients{
+    .layout__clients {
         padding: 6rem 3rem;
     }
 
-    .stat__count{
+    .stat__count {
         font-size: 4.4rem;
     }
 
-    .layout__reviews{
+    .layout__reviews {
         padding-top: 6rem;
         padding-bottom: 3rem;
     }
 
-    .reviews__review{
+    .reviews__review {
         padding-top: 2rem;
         padding-bottom: 3rem;
     }
 
-    .layout__news{
+    .layout__news {
         padding: 6rem 0;
     }
 
-    .news__new{
+    .news__new {
         padding-right: 0;
 
         flex-direction: column;
 
     }
 
-    .new__container-img{
+    .new__container-img {
         width: 100%;
     }
 
-    .new__img{
+    .new__img {
         width: 100%;
     }
 
-    .new__title{
+    .new__title {
         font-size: 2rem;
     }
 
-    .layout__contact{
+    .layout__contact {
         padding-top: 6rem;
         padding-bottom: 4rem;
     }
 
-    .layout__contact::before{
+    .layout__contact::before {
         height: 48rem;
     }
 
-    .contact__img{
+    .contact__img {
         width: 35%;
     }
 
-    .contact__thumb--chat{
+    .contact__thumb--chat {
         margin-right: -33rem;
         margin-bottom: -0.8rem;
     }
 
-    .contact__thumb--chat > .contact__img{
+    .contact__thumb--chat>.contact__img {
         width: 50%;
     }
 
-    .contact__thumb--laptop{
+    .contact__thumb--laptop {
         bottom: 0;
         left: 16rem;
     }
 
-    .contact__thumb--mobile{
+    .contact__thumb--mobile {
         bottom: 0;
         right: -11rem;
     }
 
 
-    .fleft__container{
+    .fleft__container {
         padding-inline: 0;
         margin-right: 0;
         margin-bottom: 8rem;
     }
 }
 
-@media(max-width: 640px){
+@media(max-width: 640px) {
+
     /* .services__grid,
     .projects__grid, */
     .layout__projects,
@@ -505,72 +510,78 @@
     .reviews__grid,
     .clients__container,
     .news__container,
-    .footer__container{
+    .footer__container {
         padding-right: 3rem;
         padding-left: 3rem;
     }
 
-    .layout__services{
+    .layout__services {
         margin-left: 3rem;
         margin-right: 1rem;
     }
 
 
-    .projects__categories{
+    .projects__categories {
         overflow-x: scroll;
     }
-    .contact__img{
+
+    .contact__img {
         width: 35%;
     }
 
-    .contact__thumb--chat{
+    .contact__thumb--chat {
         margin-right: -22rem;
     }
 
-    .contact__thumb--chat > .contact__img{
+    .contact__thumb--chat>.contact__img {
         width: 70%;
     }
 
-    .contact__thumb--laptop{
+    .contact__thumb--laptop {
         bottom: 0;
         left: 5rem;
     }
 
-    .contact__thumb--mobile{
+    .contact__thumb--mobile {
         bottom: 0;
         right: -21rem;
     }
 
 
-    .footer__widget--50{
+    .footer__widget--50 {
         flex-basis: auto;
     }
 
-    .footer__fright{
+    .footer__fright {
         flex-basis: 100%;
         gap: 4rem;
     }
+
+    .menu__navbar--fixed {
+        padding-inline: 1.6rem;
+    }
 }
 
-@media(max-width: 450px){
-    .contact__thumb--chat{
+@media(max-width: 450px) {
+    .contact__thumb--chat {
         margin-right: -9rem;
     }
-    .fleft__form-control{
+
+    .fleft__form-control {
         padding: 0.5rem 0.8rem;
     }
 
-    .fleft__group{
+    .fleft__group {
         height: auto;
         flex-wrap: wrap;
     }
 
-    .fleft__btn{
+    .fleft__btn {
         width: 100%;
         margin-top: 3rem;
     }
 
-    .footer__fright{
+    .footer__fright {
         gap: 1rem;
         justify-content: space-between;
         flex-wrap: wrap;
