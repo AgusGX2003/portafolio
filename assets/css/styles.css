@@ -472,6 +472,19 @@ body {
     text-align: center;
 }
 
+.softskill__icon {
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+.softskill__icon--primary {
+    color: var(--color-primary);
+}
+
+.softskill__icon--subtitle {
+    color: var(--color-subtitle);
+}
+
 /* ESTILOS SECCION SERVICIOS */
 
 .layout__services {
@@ -665,6 +678,15 @@ body {
     text-transform: capitalize;
 }
 
+.projects__description {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: var(--color-text-body);
+    max-width: 900px;
+    line-height: 1.8;
+}
+
 .projects__categories {
     position: relative;
     padding-left: 0;
@@ -812,6 +834,8 @@ body {
 .stats__progress {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin-top: 4rem;
     /* justify-content: center;
     align-items: center; */
     gap: 3rem;
