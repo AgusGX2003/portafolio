@@ -38,8 +38,9 @@
     <div class="menu__mobile">
         <header class="menu-mobile__header">
             <div class="menu-mobile__container-logo">
-                <a href="" class="menu-mobile__link-logo">
-                    <img src="./assets/img/logo-modif.webp" alt="" class="menu-mobile__logo">
+                <a href="" class="menu-mobile__link-logo flex__logo__container">
+                    <img src="./assets/img/my-logo.svg" alt="" class="menu-mobile__logo">
+                    <p class="logo__name">Agustín Piuca</p>
                 </a>
             </div>
             <button class="menu-mobile__close">
@@ -71,8 +72,9 @@
             <header class="menu__navbar">
                 <!-- LOGO -->
                 <div class="navbar__logo">
-                    <a href="" class="navbar__link-logo">
-                        <img src="./assets/img/logo-modif.webp" alt="" class="navbar__logo-light">
+                    <a href="" class="navbar__link-logo flex__logo__container">
+                        <img src="./assets/img/my-logo.svg" alt="" class="navbar__logo-light">
+                        <p class="logo__name">Agustín Piuca</p>
                     </a>
                 </div>
 
@@ -107,7 +109,8 @@
             <!-- CONTENIDO DEL BANNER -->
 
             <header class="banner__content">
-                <p class="banner__subtitle">👋 ¡Hola! Soy <span class="banner__subtitle-name">Agustín Piuca</span>,</p>
+                <p class="banner__subtitle">👋 ¡Hola! Soy <span class="banner__subtitle-name">Agustín Piuca</span>,
+                </p>
                 <h1 class="banner__title">Frontend Developer & UX/UI Designer</h1>
                 <a href="#proyectos" class="banner__btn">Ver mis trabajos</a>
             </header>
@@ -161,14 +164,27 @@
                     <p class="projects__subtitle">Conocéme</p>
                     <h2 class="projects__title">Sobre Mí</h2>
                     <p class="projects__description">
-                        Soy un <strong>desarrollador frontend</strong> con enfoque en la creación de interfaces de
-                        usuario usables e interactivas para sitios y aplicaciones web complejas. Combino diseño centrado
-                        en el usuario con desarrollo eficiente, encargándome de la maquetación y el desarrollo de
-                        interfaces modernas que priorizan el rendimiento y la experiencia del usuario.<br><br>
-                        Utilizo <strong>Figma</strong> para el diseño y prototipado de interfaces, y trabajo
-                        principalmente con <strong>React y TypeScript</strong> para construir productos web robustos,
-                        escalables y mantenibles.
+                        Ayudo a las empresas a crear productos digitales escalables, accesibles y coherentes, actuando
+                        como el <strong>puente estratégico entre el diseño UX/UI y el desarrollo frontend</strong>. Mi
+                        enfoque combina la
+                        maquetación meticulosa y el diseño centrado en el usuario con la construcción de arquitecturas
+                        mantenibles.<br>
+                        - Me especializo en el desarrollo de interfaces basadas en componentes, sistemas de diseño,
+                        wireframing y prototipado.
                     </p>
+                    <ul>
+                        <li class="projects__description list__item">
+                            <strong>Como Diseñador UX/UI:</strong> Traduzco objetivos de negocio en experiencias de
+                            usuario
+                            usables e interactivas utilizando Figma para el prototipado y diseño visual.
+                        </li>
+                        <li class="projects__description list__item">
+                            <strong>Como Desarrollador Frontend:</strong> Construyo productos web robustos y eficientes
+                            utilizando Next.js, React, TypeScript y Tailwind CSS, priorizando el rendimiento, la
+                            modularidad y las
+                            buenas prácticas de accesibilidad.
+                        </li>
+                    </ul>
                 </header>
 
                 <div class="stats__progress">
@@ -348,6 +364,26 @@
                 </header>
 
                 <div class="projects__all">
+                    <article class="projects__project">
+                        <div class="project__container-img">
+                            <a href="https://conectartdf.com/" target="_blank" class="project__link-img">
+                                <img src="assets/img/conectarTDF.webp" alt="ConectarTDF" class="project__img">
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="https://conectartdf.com/" target="_blank"
+                                    class="project-link__title">ConectarTDF - Red de Profesionales</a>
+                            </h3>
+                            <p class="project__description">Proyecto personal realizado para conectar profesionales de
+                                Tierra del Fuego entre sí. </p>
+                            <div class="projects__tag">
+                                <span class="project__tag">Next.JS,</span>
+                                <span class="project__tag">TypeScript,</span>
+                                <span class="project__tag">Tailwind</span>
+                            </div>
+                        </div>
+                    </article>
                     <article class="projects__project">
                         <div class="project__container-img">
                             <a href="https://beat-hub-app.vercel.app/" target="_blank" class="project__link-img">

@@ -69,6 +69,21 @@ body {
     max-height: 60px;
 }
 
+.logo__name {
+    font-size: 2.4rem;
+    color: var(--color-text-body);
+    font-weight: 500;
+}
+
+.flex__logo__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 2.4rem;
+}
+
 .nav__list {
     display: flex;
     flex-direction: row;
@@ -762,6 +777,16 @@ body {
     color: var(--color-text-body);
     max-width: 900px;
     line-height: 1.8;
+}
+
+.list__item {
+    list-style: disc;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: var(--color-text-body);
+    max-width: 900px;
+    line-height: 1.8;
+
 }
 
 .projects__categories {
