@@ -494,6 +494,83 @@ body {
 
 }
 
+/* TECH TAGS AND LISTS */
+.service__tech-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.service__tech-tag {
+    border: 1px solid var(--color-new-border);
+    border-radius: 20px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: var(--color-text-body);
+}
+
+.service__tech-tag img {
+    width: 24px;
+    height: 24px;
+}
+
+.service__tech-tag i {
+    font-size: 1.6rem;
+}
+
+.service__tech-tag strong {
+    font-size: 1.4rem;
+}
+
+/* TECH COLOR MODIFIERS */
+.tech-icon--react {
+    color: #61DAFB;
+}
+
+.tech-icon--typescript {
+    color: #3178C6;
+}
+
+.tech-icon--javascript {
+    color: #F7DF1E;
+}
+
+.tech-icon--html {
+    color: #E34F26;
+}
+
+.tech-icon--css {
+    color: #1572B6;
+}
+
+.tech-icon--tailwind {
+    color: #06B6D4;
+}
+
+.tech-icon--figma {
+    color: #F24E1E;
+}
+
+.tech-icon--java {
+    color: #007396;
+}
+
+.tech-icon--springboot {
+    color: #6DB33F;
+}
+
+.tech-icon--sql {
+    color: #336791;
+}
+
+.tech-icon--git {
+    color: #F05032;
+}
+
 .services__grid {
     max-width: var(--mx-width);
     margin: 0 auto;
