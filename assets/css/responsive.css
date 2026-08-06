@@ -18,6 +18,12 @@
     }
 }
 
+@media(max-width:1400px) {
+    .about__shapes {
+        display: none;
+    }
+}
+
 @media (min-width: 1199px) and (max-width: 1400px) {
 
     /* .services__grid, */
